@@ -1,0 +1,91 @@
+@charset "UTF-8";
+p {
+  color: blue;
+font-size: 20pt;
+}
+
+div {background-color: #b6e79f;}
+P.blocktext {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 6em
+
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: red;
+  text-shadow: 6px 3px 1px black;
+}
+img {
+  display: flex;
+  margin: 0 auto;
+}
+img#medalha1{
+  display: block;
+  margin: auto auto auto 310px;
+}
+
+img#medalha2{
+  display: block;
+  margin: auto auto auto 610px;
+
+}
+
+
+img#download{
+  display: block;
+  margin: auto auto auto 50px;
+}
+img#medalha3{
+  display: block;
+  margin: auto auto auto 910px;
+}
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+
+
+img#maicon{
+    width: 1300px;
+    height: 600px;
+    display: block;
+    margin: auto auto auto 100px;
+
+}
+
+img#primeira{
+    width: 1550px;
+    height: 500px;
+    display: block;
+    margin: auto auto auto 3px;

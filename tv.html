@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TV animada</title>
+  </head>
+
+  <script>
+
+
+  function acende01(){
+    document.getElementById("luz"). src="imagens1/01.PNG";
+ }
+  function apagar02(){
+    document.getElementById("luz"). src="imagens1/02.PNG";
+}
+   function quebrar03(){
+     document.getElementById("luz").src="imagens1/03.PNG";
+}
+
+</script>
+
+<body>
+    <h1>Passe o mouse em cima da tv e depois de um click </h1>
+
+     <img id="luz" src="imagens1/01.PNG"
+     onmousemove="acende01()"
+     onmouseout = "apagar02()"
+     onclick ="quebrar03()" />
+
+
+
+
+  </body>
+</html>
